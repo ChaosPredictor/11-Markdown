@@ -25,7 +25,7 @@ class MainComponent extends React.Component {
 						<Col md={6}>
 							<textarea className="inputBox" value={this.state.inputText} onChange={this.handleChange} />
 						</Col>
-						<Col md={6}><MarkdownPreview value={ this.state.inputText }/></Col>
+						<Col md={6}><MarkdownPreview className="outputBox" value={ this.state.inputText }/></Col>
 					</Row>
 				</Grid>
 			</div>
