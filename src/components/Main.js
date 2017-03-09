@@ -4,14 +4,13 @@ require('styles/Main.css');
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
-//var marked = require('react-marked');
 import { MarkdownPreview } from 'react-marked-markdown';
 
 class MainComponent extends React.Component {
   constructor(props) {
     super(props);
     this.handleChange=this.handleChange.bind(this);
-    this.state={inputText: '', outputText: ''};
+    this.state={inputText: ''};
   }
 
   handleChange(e) {
