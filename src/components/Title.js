@@ -7,7 +7,7 @@ class TitleComponent extends React.Component {
   render() {
     return (
       <div>
-				<h1 className="title"> Title text </h1>
+				<h1 className="title">Markdown Previewer</h1>
       </div>
     );
   }
